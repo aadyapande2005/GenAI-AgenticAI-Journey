@@ -1,0 +1,21 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Aadya Pande",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.16.0",
+    "dotenv": "^17.2.1",
+    "readline-sync": "^1.4.10"
+  },
+  "overrides": {
+    "ajv": "^8.17.1",
+    "whatwg-url": "^14.0.0"
+  }
+}
